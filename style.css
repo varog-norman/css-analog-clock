@@ -159,3 +159,16 @@ body {
 	background-color: #e74c3c;
     z-index: 11;
 }
+
+.spot {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	margin-top: -10px;
+	top: 50%;
+	margin-left: -10px;
+	left: 50%;
+	background-color: #e74c3c;
+	border-radius: 50%;
+	z-index: 12;
+}

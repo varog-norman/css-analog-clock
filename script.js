@@ -13,8 +13,8 @@ function render() {
 			visiblePart.className = 'visible-part';
 			transpatentPart.className = 'transparent-part';
 			if((deg != 0) && (deg != 90) && (deg != 180) && (deg != 270)) {
-				visiblePart.style.height = '20px';
-				transpatentPart.style.height = '180px'
+				visiblePart.style.height = '10px';
+				transpatentPart.style.height = '190px'
 			}
 			elem.appendChild(visiblePart);
 			elem.appendChild(transpatentPart);
